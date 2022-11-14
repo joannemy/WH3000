@@ -11,6 +11,6 @@ body {
     animation: fadeIn 1s;
   }
 
-.popup .popuptext .mainMenu {
+.popup, .popuptext, .mainMenu, .roundEndPopup{
     visibility: hidden;
 }

@@ -4,6 +4,8 @@ function submit () {
 
     if (unameArr.includes(uname)== true)
         document.getElementById("output").innerHTML = "Username already in use, please pick a different username."; 
+        else 
+            unameArr = unameArr + uname;
 }
 
 function game() {

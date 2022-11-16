@@ -5,12 +5,16 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
+button {
+    background-color: #e7e7e7;
+    color: black;
+    font-size: 30px;
+    width: 200px;
+    margin: 60px;
+    margin-top: 25%;  
+}
 
-.popup, .popuptext, .mainMenu, .roundEndPopup{
-    visibility: hidden;
+.output {
+    margin-top: 25%;
+    display: none;
 }

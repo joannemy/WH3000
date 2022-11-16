@@ -7,15 +7,15 @@
     <title>Colour Memorization Game</title>
     <link rel="stylesheet" href="WH3000.css">
     <script src="WH3000.js"></script>
-
 </head>
+
 <body>
-    <p>Please enter a username</p>
-    <form>
-        <label for="uname">Username:</label><br>
-        <input type="text" id="uname" name="uname"><br>
-      </form>
-      <p> <button id="button" onclick="submit();"> Start </button></p>
-      <p id="output"> </p>
+
+    <div id = "output">
+        <p></p>
+    </div>
+
+    <button id="startButton" onclick="start();">Start</button>
+    <button id="instructionButton" onclick="instruction();">Instruction</button>
 </body>
 </html>

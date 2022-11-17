@@ -13,9 +13,38 @@ button {
     width: 200px;
     margin-right: 60px;
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .output {
     display: none;
+}
+
+#colourSelection {
+    display: none;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#white {
+    background-color: white;
+}
+
+#red, #blue, #green, #white, #black {
+    height: 200px;
 }
